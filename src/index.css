@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xsm: 25rem;
+
+  --color-overlay-bg: rgba(0, 0, 0, 0.5);
+  --color-dialog-h1: #a97d15;
+
+  --color-bg: #cce2c2;
+  --color-bg-2: #f5dda4e1;
+  --color-bg-3: #ed6e6eeb;
+
+  --color-shadow: #bdcfb3;
+  --color-shadow-2: #f1cd7bd9;
+  --color-shadow-3: #f26161eb;
+
+  --color-question-num-bg: #fec33d;
+  --color-option-border: #8d87876d;
+
+  --color-nxt-page: #0aaf13;
+  --color-nxt-page-2: #835f09d9;
+
+  --color-con-bg: rgb(226, 223, 223);
+
+  --color-timer-bg: #35bd3a;
+  --color-timer-bg-2: #d0981596;
+  --color-timer-bg-3: #ca0303eb;
+
+  --color-footer-text: #575757;
+  --color-red: #ed6e6eeb;
+  --color-red-border: #9a4a4aeb;
+  --color-green: #0aaf13;
+  --color-green-shadow: #059c0a;
+  --color-green-border: #045407;
+
+  --shadow-box: 0 0 2px 4px var(--color-shadow);
+  --shadow-box-2: 0 0 2px 4px var(--color-shadow-2);
+  --shadow-box-3: 0 0 2px 4px var(--color-shadow-3);
+  --shadow-dialog-box: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --shadow-retry: 2px 2px 0 2px var(--color-green-shadow);
+
+  --animate-scale: scale 0.2s ease-in-out;
+
+  @keyframes scale {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+
+@layer components {
+  .options {
+    @apply flex justify-between items-center gap-4 text-base border border-option-border py-2 xsm:px-4 px-2 font-bold rounded-md cursor-pointer break-all;
+  }
+
+  /* ... */
+}
