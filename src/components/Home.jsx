@@ -24,7 +24,7 @@ const Home = ({ localData, data }) => {
           ""
         )}
 
-        <Footer />
+        <Footer margin={"mt-32"} />
       </div>
     </div>
   );

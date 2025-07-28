@@ -228,7 +228,7 @@ const Questions = ({ localData, data }) => {
             </Link>
           </div>
 
-          <Footer />
+          <Footer margin={"mt-12"} />
 
           {time === 0 && (
             <Modal>

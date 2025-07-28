@@ -89,7 +89,7 @@ const Result = ({ localData }) => {
           </Link>
         </div>
 
-        <Footer />
+        <Footer margin={"mt-14"} />
       </div>
     </>
   );
