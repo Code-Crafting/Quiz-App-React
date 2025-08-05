@@ -1,12 +1,37 @@
-# React + Vite
+# 🧠 React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic, user-friendly quiz application built with **React.js** that tests your knowledge with instant feedback, score tracking, and smooth UX features. Built as a personal project to sharpen React skills and create an engaging user experience.
 
-Currently, two official plugins are available:
+### 🌐 Live Demo
+👉 [Check it out here](https://quiz-app-react-nu-seven.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🚀 **Start Screen** with a start button to begin the quiz
+- 📄 **Multiple Choice Questions** with single-answer selection
+- ⏱️ **30-Second Countdown Timer** for each question
+- ✅ **Instant Feedback**:
+  - Green with ✔️ on correct answer
+  - Red with ❌ and reveal of correct answer on wrong attempt
+- 🔊 **Sound Effects**:
+  - Ding sound for correct answers
+  - Buzz sound for wrong answers
+  - Toggle sound on/off anytime
+- 🧮 **Final Score Screen** showing total correct answers
+- 🏆 **High Score Tracking** (changes when user beats the previous high score)
+- 🔄 **Restart Quiz** option after completion
+- 📱 **Responsive Design** for mobile, tablet, and desktop
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **JavaScript (ES6+)**
+- **CSS / Tailwind CSS**
+- **Vercel** for deployment
+
+---
+
